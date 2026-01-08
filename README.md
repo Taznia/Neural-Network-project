@@ -14,12 +14,12 @@ This repository contains the implementation of an unsupervised learning pipeline
 project/
 ├── data/           # Audio features and lyrics CSVs
 ├── notebooks/      # Exploratory notebooks
+├── results/        # Metrics and t-SNE visualizations
 ├── src/            # Core source code
 │   ├── dataset.py    # Data loading and preprocessing
 │   ├── vae.py        # PyTorch model definitions
 │   ├── clustering.py # Clustering algorithms
 │   └── evaluation.py # Metric computations
-├── results/        # Metrics and t-SNE visualizations
 ├── main.py         # Main execution script
 └── report.md       # NeurIPS-like scientific report
 ```
@@ -29,9 +29,3 @@ project/
 2. Run the full pipeline: `python main.py`.
 3. Check `results/` for metrics and visualizations.
 
-## Model Performance
-| Method | Silhouette Score |
-| :--- | :--- |
-| PCA Baseline | 0.0988 |
-| Beta-VAE | 0.0912 |
-| **CVAE** | **0.1245** |
