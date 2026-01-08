@@ -1,0 +1,22 @@
+# Data
+data/
+genres_original/
+images_original/
+
+# Results
+results/
+output.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
