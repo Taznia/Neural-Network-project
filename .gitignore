@@ -1,13 +1,8 @@
-# Data
-data/
+# Exclude large raw datasets (1.3GB+)
 genres_original/
 images_original/
 
-# Results
-results/
-output.log
-
-# Python
+# Python cache
 __pycache__/
 *.py[cod]
 *$py.class
